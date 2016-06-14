@@ -17,7 +17,7 @@ var transporter = nodemailer.createTransport({
     // default message fields
 
     // sender info
-    from: 'sender name <sender@example.com>',
+    from: 'sender name <sender@gmail.com>',
     headers: {
         'X-Laziness-level': 1000 // just an example header, no need to use this
     }
@@ -29,7 +29,7 @@ console.log('SMTP Configured');
 var message = {
 
     // Comma separated list of recipients
-    to: '"Receiver Name" <khamdan46@gmail.com>',
+    to: '"Receiver Name" <receiver@example.com>',
 
     // Subject of the message
     subject: 'Nodemailer is unicode friendly ✔', //
